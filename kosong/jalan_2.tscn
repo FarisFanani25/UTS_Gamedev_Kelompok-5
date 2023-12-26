@@ -1440,19 +1440,19 @@ size = Vector2(225.563, 147.25)
 [node name="TileMap" type="TileMap" parent="."]
 format = 2
 
-[node name="Sprite2D3" type="Sprite2D" parent="."]
-position = Vector2(1822.5, -41.1251)
-scale = Vector2(3.80812, 4.34922)
+[node name="Sprite2D2" type="Sprite2D" parent="TileMap"]
+position = Vector2(6857, -43)
+scale = Vector2(2.6141, 4.33208)
 texture = ExtResource("1_sv85c")
 
-[node name="Sprite2D" type="Sprite2D" parent="."]
+[node name="Sprite2D" type="Sprite2D" parent="TileMap"]
 position = Vector2(10572, -53)
 scale = Vector2(2.1361, 4.39531)
 texture = ExtResource("1_sv85c")
 
-[node name="Sprite2D2" type="Sprite2D" parent="."]
-position = Vector2(6857, -43)
-scale = Vector2(2.6141, 4.33208)
+[node name="Sprite2D3" type="Sprite2D" parent="TileMap"]
+position = Vector2(1822.5, -41.1251)
+scale = Vector2(3.80812, 4.34922)
 texture = ExtResource("1_sv85c")
 
 [node name="TileMap2" type="TileMap" parent="."]
